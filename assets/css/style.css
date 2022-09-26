@@ -52,9 +52,11 @@ nav ul li a {
 .content {
     display: flex;
     margin: 1.6rem;
-    flex: 1;
+    flex: 0;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    height: auto;
+    width: auto;
 }
 
 .card {
@@ -80,3 +82,13 @@ footer {
     color: var(--header-txt-color);
     margin: auto;
   }
+
+.img-left {
+   float: left;
+   margin-right: 25px;
+   height: 30rem;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
