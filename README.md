@@ -22,5 +22,7 @@ ENTONCES me llevan a esa aplicación desplegada
 CUANDO redimensiono la página o veo el sitio en varias pantallas y dispositivos
 ENTONCES se me presenta un diseño responsivo que se adapta a mi pantalla
 
+![Preview](./assets/images/preview.png)
+
 * Repositorio: git@github.com:maugh108/desafio02.git
 * URL: https://maugh108.github.io/desafio02/
