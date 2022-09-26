@@ -1,0 +1,82 @@
+:root {
+    --main-bg-color: rgba(67, 68, 68, 0.822);
+    --header-bg-color: rgba(86, 17, 136, 0.822);
+    --header-txt-color: whitesmoke;
+    --banner-bg-color: rgba(115, 7, 192, 0.822);
+    --card-bg-color: rgba(66, 28, 94, 0.822);
+    --card-txt-color:whitesmoke;
+    --card-border-color: rgb(1, 54, 1);
+    --card-glow-color: rgb(0, 255, 0); 
+}
+  
+html {
+    font-size: 62.5%;
+  
+}
+
+body {
+    font-family: 'Courier New', 'Courier Regular';
+    background-color: var(--main-bg-color);
+}
+
+header {
+    padding: 1rem;
+    background-color: var(--header-bg-color);
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0px 1.6rem; 
+}
+
+nav ul li a {
+    display: inline-block;
+    color: var(--header-txt-color);
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.welcome-banner {
+    height: 16rem;
+    padding: 4.8rem;
+    background-color: var(--banner-bg-color);
+    font-size: 6.4rem;
+    color: var(--header-txt-color);
+    text-align: center;  
+}
+
+.content {
+    display: flex;
+    margin: 1.6rem;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    padding: 3.2rem; 
+    background-color: var(--card-bg-color);
+    color: var(--header-txt-color);
+    border-radius: 1.6rem;
+    transition: all 0.5s ease-in-out;
+    flex: 0 0 60rem;
+    margin: 1.6rem;
+}
+
+.card:hover {
+  box-shadow: inset 0px 0px 8px var(--card-glow-color), 0px 0px 8px var(--card-glow-color);
+}
+
+footer {
+    width: 100%;
+    bottom: 0rem;
+    padding: 0.8rem;
+    text-align: center;
+    background-color: var(--header-bg-color);
+    color: var(--header-txt-color);
+    margin: auto;
+  }
